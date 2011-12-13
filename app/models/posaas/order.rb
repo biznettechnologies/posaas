@@ -1,3 +1,4 @@
 class Posaas::Order < ActiveResource::Base
-  self.site = "http://posaas.dev"
+  self.site = Posaas::Base.service_url
+  # self.format = :json
 end

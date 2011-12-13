@@ -1,7 +1,12 @@
+puts 'loading posaas ...'
+
 require "posaas/version"
 
 module Posaas
-  # Your code goes here...
+  class Base
+    class << self; attr_accessor :service_url end
+    @service_url = "http://localhost:3000"
+  end
 end
 
-require 'posaas/engine'
+# require 'posaas/engine'
