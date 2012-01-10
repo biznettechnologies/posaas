@@ -1,4 +1,4 @@
-puts 'loading posaas ...'
+puts 'loading posaas gem ...'
 
 require "posaas/version"
 
