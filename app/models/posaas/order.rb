@@ -29,20 +29,34 @@ private
 
   def posaas
     {
-      :uid => 0,
-      :restaurant_uid => 0,
+      :uid => '',
+      :restaurant_uid => '',
       :total => 0,
+      :time => '',
+      :delivery_address => '',
+      :order_type_attributes => {
+        :uid => ''
+      },
+      :service_charge_attributes => {
+        :uid => '',
+        :amount => 0
+      },
+      :delivery_charge_attributes => {
+        :uid => '',
+        :amount => 0
+      },
       :items_attributes => [{
-        :uid => 0,
+        :uid => '',
         :price => 0,
         :quantity => 0,
+        :special_instructions => '',
         :ingredients_attributes => [{
-          :uid => 0,
+          :uid => '',
           :price => 0
         }]
       }],
       :discount_attributes => {
-        :uid => 0,
+        :uid => '',
         :amount => 0
       }
     }
