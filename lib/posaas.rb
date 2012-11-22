@@ -1,6 +1,7 @@
 puts 'loading posaas gem ...'
 
 require "posaas/version"
+require 'posaas/engine'
 
 module Posaas
   class Base
@@ -9,4 +10,3 @@ module Posaas
   end
 end
 
-# require 'posaas/engine'
