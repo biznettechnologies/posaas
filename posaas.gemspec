@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
   
-  s.add_dependency "activeresource", "3.1.0"
+  s.add_dependency "activeresource", "3.2.6"
 end
